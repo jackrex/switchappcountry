@@ -1,0 +1,9 @@
+<view class="row">
+<view wx:for="{{countryRes}}" wx:key="*this" wx:for-item="item">
+  <view bindtap='countryClick' id="{{item.id}}" class="c_item">
+     <image class="img" src='{{item.src}}'></image>
+     <text class="text">{{item.title}}</text>
+  </view>
+</view>
+</view> 
+ 
